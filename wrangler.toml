@@ -1,0 +1,11 @@
+name = "formsandlettersss"
+main = "worker.js"
+compatibility_date = "2026-10-05"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "formsandlettersss"
