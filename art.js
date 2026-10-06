@@ -1,4 +1,4 @@
-const alphabetResponse=await fetch('/alphabet.json'); const alphabet=await alphabetResponse.json();
+const alphabetResponse=await fetch('./alphabet.json'); const alphabet=await alphabetResponse.json();
 const canvas=document.querySelector('#art');
 const ctx=canvas.getContext('2d',{alpha:false});
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
